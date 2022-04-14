@@ -1,0 +1,120 @@
+body{
+  margin: 0; /* as we all 4 side 0*/
+  text-align: center;
+  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
+}
+.Intro{
+  background-color: #EAF6F6;
+  padding-top: 50px;
+  position: relative;
+}
+.profile-pic{
+  border-radius: 100%;
+  padding-top: 30px;
+}
+.clang{
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+.pylang{
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 5%;
+  border-color: #39AEA9;
+  margin: 100px auto 100px auto;
+}
+h1{
+  font-size: 6em;
+  line-height: 2;
+  color: #66BFBF;
+  margin: 100px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+p{
+  color: #40514E;
+}
+.profile{
+  width: 50%;
+  margin: auto;
+}
+.Bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 250px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+
+}
+.contact-me{
+  margin-bottom: 50px;
+}
+
+.btn{
+  background-image: linear-gradient(#11cdd4,#11999e);
+  border-radius: 8px;
+  line-height: 8;
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+}
+.btn:hover{
+  background-image: linear-gradient(#30e3cb,#2bc4ad);
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 40px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+a{
+  color:#11999E;
+  margin: 10px;
+}
+
+a:hover{
+  color:#EAF6F6;
+  margin: 10px;
+}
+.footer-link{
+  line-height: 3;
+  text-decoration: none;
+  font-weight: bold;
+}
